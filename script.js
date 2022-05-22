@@ -58,6 +58,7 @@ main.addEventListener('click',()=>{
     }
 })
 
+
 next.addEventListener('click',()=>{
     cur++;
     if(cur===songs.length) cur=0;
@@ -66,6 +67,12 @@ next.addEventListener('click',()=>{
     singer.innerText= songs[cur].singer;
     music.setAttribute('src',songs[cur].url);
     music.play();
+        main.setAttribute('title','Pause');
+        main.setAttribute('class',"fa fa-solid fa-pause");
+        music.play();
+        img.setAttribute('class','anime');
+
+    
 
 })
 
@@ -78,6 +85,13 @@ prev.addEventListener('click',()=>{
     singer.innerText= songs[cur].singer;
     music.setAttribute('src',songs[cur].url);
     music.play();
+   
+        main.setAttribute('title','Pause');
+        main.setAttribute('class',"fa fa-solid fa-pause");
+        music.play();
+        img.setAttribute('class','anime');
+
+    
 
 })
 
