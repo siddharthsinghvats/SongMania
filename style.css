@@ -123,8 +123,8 @@ box-shadow: 17px 13px 20px -1px rgba(0,0,0,0.75);
 
 @media screen and (max-width:380px) {
   .main{
-    width:82%;
-    margin-top:10%;
+    width:70%;
+    margin-top:5%;
     padding:5%;
   }
   .music{
