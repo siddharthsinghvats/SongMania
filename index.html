@@ -14,18 +14,35 @@
 </head>
 <body>
     <h1 class="appname">Song Mania</h1>
+    
     <div class="main container">
         <h1 id="name" title="Song"></h1>
         <h3 id="singer" title="Singer"></h3>
         <div class="img-contain">
             <img class="" id="image" src="tape.jpg" alt=""> 
         </div>
+        <div class="dur">
+            <span id="start">0.00</span>
+            <span id="end">2.44</span>
+        </div>
+        <div id="progress" class="progress" >
+            <div id="progress-bar" class="progress-bar" style="width:0%;"></div>
+        </div>
         <div class="music">
             <i id="prev" class="fa fa-solid fa-backward" title="previous"></i>
             <i  id="main-button" class="fa fa-solid fa-play" title="Play"></i>
             <i id="next" class="fa fa-solid fa-forward" title="next"></i>
-            <audio src="./Baarish Ban Jana - Stebin Ben.mp3"></audio>
+            <audio preload="metadata">
+                <source src="./barish.mp3" type="audio/mp3">
+            </audio>
         </div>
+        <div class="volume">
+            <span class="control" id="toggle" ><img class="icon" src="silent.svg" alt="" title="silent"></span>
+            <span class="control" id="plus" title="increase volume">+</span>
+            <span class="control" id="minus" title="decrease volume">-</span>
+        </div>
+      
+      
        
     </div>
     <script src="./script.js"></script>
