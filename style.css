@@ -1,7 +1,6 @@
   body{
     box-sizing: border-box;
     margin:0;
-    padding:0;
     font-family: 'Source Sans Pro', sans-serif;
     background-size: 100px 100px;
     background-color: rgb(165, 2, 194);
@@ -112,13 +111,13 @@ box-shadow: 17px 13px 20px -1px rgba(0,0,0,0.75);
 }
 @media screen and (max-width:650px) {
   .main{
-    width:70%;
-    margin-top:10%;
+    width:80%;
+    margin-top:15%;
     
   }
   .appname{
     font-size: 2.3rem;
-    width:50%;
+    width:60%;
   }
 }
 
@@ -135,7 +134,7 @@ box-shadow: 17px 13px 20px -1px rgba(0,0,0,0.75);
   }
   .appname{
     font-size: 2rem;
-    width:50%;
+    width:60%;
   }
   
 }
